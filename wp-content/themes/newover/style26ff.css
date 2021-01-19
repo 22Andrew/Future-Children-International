@@ -1,0 +1,87 @@
+/*
+Theme Name: NewOver
+Description: It's like a do-over, but better.
+Author: NewOver
+Author URI: http://newover.com
+Template: Avada
+Version: 1.0.0
+Text Domain: Avada
+*/
+
+.ctct-form-wrapper .ctct-button,
+.ctct-form-wrapper .ctct-disclosure {
+  display: none;
+}
+
+.ctct-form-wrapper .ctct-form {
+  box-sizing: border-box;
+  display: block;
+  margin-right: -10px;
+  margin-left: -10px;
+  position: relative;
+}
+
+.ctct-form-wrapper .ctct-form-description {
+  display: none;
+}
+
+.ctct-form-wrapper .ctct-form-field {
+  box-sizing: border-box;
+  float: left;
+  min-height: 1px;
+  margin: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.ctct-form-wrapper .ctct-form-field > label,
+.ctct-form-wrapper .ctct-form-field > .ctct-label-top > label {
+  display: none;
+}
+
+.ctct-form-wrapper .ctct-submit {
+  background-color: #7a981c;
+  background-image: none;
+  border: 1px solid #7a981c;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  height: 46px;;
+  line-height: 44px;
+  margin-bottom: 0;
+  padding: 0 20px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.ctct-form-wrapper .error {
+  background-color: #f65437;
+  border-color: #f65437;
+  color: #fff;
+}
+
+.ctct-form-wrapper .success {
+  background-color: #7a981c;
+  border-color: #7a981c;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .ctct-form-wrapper .ctct-form-field {
+    width: 25%;
+  }
+}
